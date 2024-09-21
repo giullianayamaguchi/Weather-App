@@ -21,7 +21,10 @@
       <div class=" mt-4">
          {% if endereço %}
           <h2>Resultado:</h2>
-          <p>{{ endereço }}</p>  <!-- Exibe o endereço retornado -->
+          <p>Estado: {{ endereço.state }}</p>  
+          <p>Cidade: {{ endereço.city }}</p>
+          <p>Bairro: {{ endereço.neighborhood }}</p>
+          <p>Rua: {{ endereço.street }}</p>
         {% else %}
             <p>Digite um CEP e clique em "Consultar".</p>
         {% endif %}
