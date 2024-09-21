@@ -1,0 +1,18 @@
+body{
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#pagina{
+    height: 100vh;
+}
+#campo_input{
+    background-color: rgba(255, 255, 255, 0.5); /* Cor de fundo semi-transparente */
+    backdrop-filter: blur(20px); /* Nível de desfoque */
+    padding: 40px 20px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
